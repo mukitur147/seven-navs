@@ -44,7 +44,7 @@ const NavigationTwo = () => {
                     <NavLink className="hover:text-indigo-600 font-medium" to="/">Pricing</NavLink>
                     <NavLink className="hover:text-indigo-600 font-medium" to="/">Gallery</NavLink>
                     <NavLink className="hover:text-indigo-600 font-medium" to="/">Team</NavLink>
-                    <input className={searchOpen ? 'w-38 p-1 rounded text-gray-600 bg-slate-100'
+                    <input className={searchOpen ? 'w-38 py-1 px-2 rounded text-gray-600 bg-slate-100 text-sm'
                     :
                     'hidden'} type="text" name='text' placeholder='Search' />
                     <button onClick={searchToggle} className='xs:hidden ml-1'><svg className='h-4 w-4 text-gray-700 font-light' xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke="currentColor">
@@ -109,7 +109,7 @@ const NavigationTwo = () => {
                     </nav>
                   </div>
                 </div>
-                <input className={searchOpen ? 'w-38 p-1 rounded text-gray-600 bg-slate-100 md:hidden ml-16'
+                <input className={searchOpen ? 'w-38 py-1 px-2 text-sm rounded text-gray-600 bg-slate-100 md:hidden ml-16'
                     :
                     'hidden'} type="text" name='text' placeholder='Search' />
 

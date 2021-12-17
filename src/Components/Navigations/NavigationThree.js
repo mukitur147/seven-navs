@@ -61,7 +61,7 @@ const NavigationThree = () => {
                     </svg></button>
 
                     
-                    <input className={searchOpen ? 'w-38 p-1 rounded text-gray-600 bg-slate-100'
+                    <input className={searchOpen ? 'w-38 py-1 px-2 rounded text-gray-600 bg-slate-100 text-sm '
                     :
                     'hidden'} type="text" name='text' placeholder='Search' />
                 </div>
@@ -97,7 +97,7 @@ const NavigationThree = () => {
                     </nav>
                   </div>
                 </div>
-                <input className={searchOpen ? 'w-38 p-1 rounded text-gray-600 bg-slate-100 md:hidden ml-16'
+                <input className={searchOpen ? 'w-38 py-1 px-2 rounded text-gray-600 bg-slate-100 md:hidden ml-16 text-sm '
                     :
                     'hidden'} type="text" name='text' placeholder='Search' />
         </nav> 
